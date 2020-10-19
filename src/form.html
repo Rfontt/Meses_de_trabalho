@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mês em que trabalhou</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Informe os dados abaixo:</h1>
+		<main>
+			<form>
+				<legend>
+					Informe os dados de quando foi contratado:
+				</legend>
+				<input placeholder="Dia" type="number" id="day" />
+				<input placeholder="Mês" type="number" id="month" />
+				<input placeholder="Ano" type="number" id="year" />
+
+				<legend>
+					Informe os dados de quando foi demitido:
+				</legend>
+				<input placeholder="Dia " type="number" id="dayFinal"/>
+				<input placeholder="Mês" type="number" id="monthFinal"/>
+				<input placeholder="Ano" type="number" id="yearFinal"/>
+
+				<button
+				id="button" onclick="myFunctionMonth()"> Enviar 
+				</button>
+			</form>
+		</main>
+	</div>
+	<script>
+		function myFunctionMonth(){
+			var dayI = document.querySelector('#day').value;
+			var dayF = document.querySelector('#dayFinal').value;
+			var durationDays = dayF - dayI;
+
+			var monthI = document.querySelector('#month').value;
+			var monthF = document.querySelector('#monthFinal').value;
+			var durationMonths = monthF - monthI;
+
+			var yearI = document.querySelector('#year').value;
+			var yearF = document.querySelector('#yearFinal').value;
+			var durationYears = (yearF-yearI);
+			var durationYearsForMonth = (yearF-yearI)*12;
+
+			var somaDeMeses = durationMonths + durationYears;
+
+				if (dayF == dayI && monthF == monthI && yearF != yearI) {
+
+					return alert("Você permaneceu na empresa por: \n" + durationYearsForMonth + "\n meses que equivale a: \n" + durationYears + "anos"); 
+
+				}else if(dayF != dayI && monthF != monthI && yearF == yearI){
+
+					return alert("Você permanceu na empresa por: \n"+ durationMonths+ "meses e \n" + durationDays);
+
+				}else if(dayF == dayI && monthF != monthI && yearF == yearI){
+
+					return alert("Você permanceu na empresa por \n" + durationMonths + "\n meses");
+				}else if (dayF != dayI && monthF == monthI && yearF == yearI) {
+
+					return alert("Você permanceu na empresa por \n" + durationDays + "\n dias");
+				}else if(dayF != dayI && monthF != monthI && yearF != yearI){
+
+					return alert("Você permaneceu na empresa por \n "+ somaDeMeses + "\n meses e  \n" + durationDays + "dias");
+				}else{
+					return alert("Há algum erro, você colocou todos os dados que totalizam um total de 0 dias/meses/anos");
+				}
+
+		}
+	</script>
+</body>
+</html>
