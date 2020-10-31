@@ -1,5 +1,5 @@
 <h1 style="text-align: center;"> Meses de trabalho </h1>
- **Esse programa é apenas para dizer quantos meses um funcionário trabalhou em uma empresa. Nele foi usado html, css e JS.**
+ Esse programa é apenas para dizer quantos meses um funcionário trabalhou em uma empresa. Nele foi usado html, css e JS.
 
 <h1 style="text-align: center;"> HTML </h1>
 
