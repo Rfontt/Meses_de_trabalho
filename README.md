@@ -45,12 +45,12 @@ ex: var name = document.querySelect('#name').value;
 
 ### Lá a gente pegou os days, months, years tanto inicial quanto final. A lógica do problema era apenas informar ao usuário o quanto de meses o mesmo ficou na empresa.
 
-## Então para sabermos isso foi preciso usar a estrutura de condição: 
+## Então para sabermos isso foi preciso usar a estrutura de condição e a lógica booleana: 
 
 - IF, ELSE IF, ELSE.
-- E a lógica booleana(true, false) do AND(&&).
+- (true, false) do AND(&&).
 
-** Lembrando: a lógica do AND só funciona se todas as condições foram verdadeira, caso não, ela passa para a próxima. Por que o ELSE IF(ELIF)? Porque estamos tratando de uma mesma variável, então o else if se encaixa perfeitamente para esse exemplo. **
+**Lembrando: a lógica do AND só funciona se todas as condições foram verdadeira, caso não, ela passa para a próxima. Por que o ELSE IF(ELIF)? Porque estamos tratando de uma mesma variável, então o else if se encaixa perfeitamente para esse exemplo.**
 
 ### Por fim é preciso ter a lógica de que o usuário pode ter passado apenas alguns dias, alguns meses, ou alguns anos. Pode também ter passado meses incompletos(então é concactenado com os dias). Como o exemplo pedia em meses, foi preciso converter os anos em meses. 1 ANO ------ 12 MESES TAL ANO -------- TAL MESES
 
