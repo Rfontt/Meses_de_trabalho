@@ -29,7 +29,7 @@ function nameFunction(){
 }
 ```
 
-### Dito isso, é necessário apenas pegar os dados que o usuário digitou no input. Como fazer isso? Por meio do id que foi atribuído no input, como explicado anteriomente. Sendo assim usaremos uma variável para guardar esse valor. Para podermos ter acesso a tudo isso, é preciso apenas usar o document.querySelect('').value; e dentro dos parentêses passarmos o id.
+### Dito isso, é necessário apenas pegar os dados que o usuário digitou no input. Como fazer isso? Por meio do id que foi atribuído no input, como explicado anteriomente. Sendo assim usaremos uma variável para guardar esse valor. Para podermos ter acesso a tudo isso, é preciso apenas usar o document.querySelect('').value; e dentro dos parênteses passarmos o id.
 
 document.querySelect('#').value; Para id é usado # e o nome do mesmo, o qual foi atribuído no input.
 
