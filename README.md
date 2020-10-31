@@ -4,7 +4,6 @@
 <h1 style="text-align: center;"> HTML </h1>
 
 ### Dentro do corpo do html foi criado divs que possuem um conteúdo main com um formulário referentes ao d/m/aa em que o usuário foi contratado e ao d/m/aa em que o usuário foi demitido. Vale ressaltar, que no corpo dos inputs possuem uma propriedade, na qual através dela podemos o identificar, essa propriedade é o ID(como se fosse o nome dele), a partir disso podemos usá-los futuramente em funções, as quais irão pegar o valor atribuído pelo usuário por meio desse id. Ademais, foi criado também, dentro da mesma div e do mesmo formulário referente ao CONTRATADO/DEMITIDO, um button. Esse ficou responsável pela parte em que conecta o html ao js, nele existe uma propriedade chamada onclick, a mesma fica encarregada de chamar uma função que retorna algo para o usuário. Função esta que será criada no JS.
-como chama uma função?
 
 <h1 style="text-align: center;"> CSS </h1>
 
