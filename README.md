@@ -19,7 +19,10 @@
 
 <h1 style="text-align: center;"> JavaScript </h1>
 
-### A parte lógica ficou responsável pelo JS(JAVASCRIPT). Nela iremos criar a função que será realizada quando o usuário apertar no button de submit(ou seja, quando o mesmo nos enviar). O JS é chamado no html por meio da tag <script></script> A função seja criada dentro dessa tag.
+### A parte lógica ficou responsável pelo JS(JAVASCRIPT). Nela iremos criar a função que será realizada quando o usuário apertar no button de submit(ou seja, quando o mesmo nos enviar). O JS é chamado no html por meio da tag:
+```
+<script></script> 
+```
 
 ## como criar uma função???
 
