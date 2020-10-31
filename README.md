@@ -9,7 +9,7 @@
 
 ### Na div criada no html coloquei uma class a qual estilizei no css. Coloquei para ela uma width e um height de 100vw e 100vh, respectivamente. Isso para que a div container, (a qual tem todo o conteúdo dentro, como o formulário), ocupasse a largura e altura completa do monitor. Além disso, utilizei o displey flex para ocupar o seu lugar e alinhei tudo ao centro, já com o flex-direction coloquei-os em colunas para que o conteúdo main ficasse a baixo do h1.
 
-### Como havia criado um h1, resolvi estilizá-lo para colocar uma font-size, font-family e uma cor diferente, além da intonação da font com um font-weight. Com isso feito, estilizei o main, o qual tem o formulário. Coloquei um background: white(branco) e defini uma largura e altura fixa. Além disso, novamente utilizei o displey flex e com o aling-items alinhei todos os itens do main ao centro.
+### Como havia criado um h1, resolvi estilizá-lo para colocar uma font-size, font-family e uma cor diferente, além da intonação da font com um font-weight. Com isso feito, estilizei o main, o qual tem o formulário. Coloquei um background: white(branco) e defini uma largura e altura fixa. Além disso, novamente utilizei o displey flex e com o align-items alinhei todos os itens do main ao centro.
 
 ### Com isso feito, defini ao form que ele ocupasse, com o displey flex, todo o seu lugar e que ficasse todos os itens em colunas com o flex-direction, mas também, novamente, alinhei os itens ao centro.
 
