@@ -61,3 +61,8 @@ ex: var name = document.querySelect('#name').value;
 
 
 
+100. Src: é a pasta principal que contêm todas as outras pastas com seus respectivos arquivos.
+
+     - Navigation: vai ficar responsável pelas rotas.
+
+       - Pages: Vai ficar responsável por guardar as pastas que contêm os arquivos das páginas: landing, home, questions e response.
