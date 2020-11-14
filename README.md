@@ -60,8 +60,3 @@ ex: var name = document.querySelect('#name').value;
 ### Os dias não podem ser convertidos em meses, porém os anos sim. Caso ele tenha passado só alguns dias, então ele irá receber apenas os dias que passou lá.
 
 
-- Src: é a pasta principal que contêm todas as outras pastas com seus respectivos arquivos.
-
-    - Navigation: vai ficar responsável pelas rotas.
-
-       - Pages: Vai ficar responsável por guardar as pastas que contêm os arquivos das páginas: landing, home, questions e response.
